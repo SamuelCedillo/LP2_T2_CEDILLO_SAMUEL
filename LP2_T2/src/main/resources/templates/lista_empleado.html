@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<table>
+		<caption>This is an example table, and this is its caption
+			to describe the contents.</caption>
+		<thead>
+			<tr>
+				<th>DNI EMPLEADO</th>
+				<th>NOMBRE EMPLEADO</th>
+				<th>APELLIDO EMPLEADO</th>
+				<th>FECHA NACIMIENTO</th>
+				<th>DIRECCION</th>
+				<th>CORREO</th>
+				<th>AREA</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr th:each="empleado : ${listempl}">
+				<td th:text="${empleado.dni_empleado"></td>
+				<td th:text="${empleado.dni_empleado">Table cell</td>
+				<td th:text="${empleado.dni_empleado">Table cell</td>
+				<td th:text="${empleado.dni_empleado">Table cell</td>
+				<td th:text="${empleado.dni_empleado">Table cell</td>
+				<td th:text="${empleado.dni_empleado">Table cell</td>
+				<td th:text="${empleado.dni_empleado">Table cell</td>
+
+			</tr>
+			<tr>
+				<td>Table cell</td>
+				<td>Table cell</td>
+				<td>Table cell</td>
+				<td>Table cell</td>
+				<td>Table cell</td>
+				<td>Table cell</td>
+				<td>Table cell</td>
+
+			</tr>
+			<tr>
+				<td>Table cell</td>
+				<td>Table cell</td>
+				<td>Table cell</td>
+				<td>Table cell</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
