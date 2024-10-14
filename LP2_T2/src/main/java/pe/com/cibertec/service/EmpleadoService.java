@@ -6,4 +6,5 @@ import pe.com.cibertec.model.empleadoEntity;
 
 public interface EmpleadoService {
 	List<empleadoEntity>listarEmpleado();
+	void crearEmpleado(empleadoEntity empleadoEntity);
 }
