@@ -1,3 +1,7 @@
+package pe.com.cibertec.model;
+
+import java.time.LocalDate;
+
 import org.springframework.format.annotation.DateTimeFormat;
 
 import jakarta.persistence.Column;
@@ -26,7 +30,7 @@ public class empleadoEntity {
 	@Column(name = "area_id")
 	private Integer areaId;
 	
-	@Column(name = "Dni_empleado", nullable = false, char(8))
+	@Column(name = "Dni_empleado", nullable = false)
 	private String dni_empleado;
 	
 	@Column(name = "nombre_empleado", nullable = false)
